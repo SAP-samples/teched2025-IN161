@@ -120,124 +120,40 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 To test your configuration scenario, we use the Bruno API client application for which we have provided a collection with pre-configured sample requests. As a prerequisite to test your integration scenario using the Bruno API client, you should have gone through [Setup Bruno API client](../ex0#setup-bruno-api-client/). If not, do the setup, then come back and proceed with the steps below.
 
-1. Open the Bruno application on your laptop, expand the **Migration Hands-on Workshop** collection and select any of the POST requests. Ensure that the right environment is selected which defines the host name of the tenant, the client id and the secret. Depending on which tenant you use in the exercises, select either **eu-02a** or **eu-02b**. In the URL change <b>XX</b> with the user number assigned to you. Then trigger a message by selecting the **Send Request** button on the upper right.
+1. Open the Bruno application on your laptop, expand the **Migration Hands-on Workshop** collection and select any of the first three POST requests. Ensure that the right environment is selected which defines the host name of the tenant, the client id and the secret. Depending on which tenant you use in the exercises, select either **eu-02a** or **eu-02b**. In the provided URL, change <b>XX</b> with the user number assigned to you. Save, then trigger a message by selecting the **Send Request** button on the upper right.
 
-<br>![image](/exercises/ex4/images/bruno-04-01.png)
+<br>![](/exercises/ex2/images/07_Test_Bruno_11.png)
 
 2. Upon success, you will receive **200 OK** status.
 
-<br>![image](/exercises/ex4/images/bruno-04-02.png)
+<br>![](/exercises/ex2/images/07_Test_Bruno_12.png)
 
-3. Navigate back to the monitoring page, and click the **Monitor Message Processing** link below the **Artifact Details** of your deployed integration flow.
+3. Navigate back to the monitoring page, and click the **Overview** link.
 
-<br>![](/exercises/ex4/images/new-04-17.png)
+<br>![](/exercises/ex2/images/08_Monitoring_01.png)
 
-4. In the message monitor, you should see two new logs in status **Completed**, one for the integration process writing to the JMS queue, and one for the integration process reading from the very same queue. In the **Properties** section of the logs, you should see that the message was sent to the **third** receiver.
+4. In the **Integrations and APIs** monitoring page, click the **Message Status Overview** tile.
 
-<br>![](/exercises/ex4/images/04-35.png)
+<br>![](/exercises/ex2/images/08_Monitoring_02.png)
 
-5. Navigate back to Bruno. Change the country code to **DE**, then click <b>Send</b> again. The response should be "200 OK".
+5. In the **Message Status Overview**, change the **Overview By** to **Senders**. This provides you an overview of all processed messages grouped by the sender system. Click the **Completed** or **Total** number link that corresponds to the sender **CBR2XX** with the user number <b>XX</b> assigned to you.
 
-<br>![image](/exercises/ex4/images/bruno-04-03.png)
+<br>![](/exercises/ex2/images/08_Monitoring_04.png)
 
-6. Navigate back to the monitoring page, and refresh. You should see two more new logs in status **Completed**. In the **Properties** section of the logs, you should see that the message was sent to the **first** receiver.
+6. In the upcoming message monitor, you should see five new logs in status **Completed**: one for the scenario-specific inbound processing, one for the scenario-specific inbound conversion, one for the generic integrated messaging pipeline, one for the generic outbound processing, and finally one for the scenario-specific outbound processing. Depending on the request that you have sent, you should see the corresponding receiver in the log properties: for the category **Software**, the message should be sent to receiver **XYZ200**, for the category **Keyboards**, the receiver should be **XYZ201**, and for the category **Notebooks**, the receiver should be **XYZ202**.
 
-<br>![](/exercises/ex4/images/04-36.png)
+<br>![](/exercises/ex2/images/08_Monitoring_05.png)
 
-### Option 2: Using your own API client
+7. In the Bruno test client, you may resend different requests and check the monitoring. Note, do not forget to change the URL of the other requests replacing <b>XX</b> with the number assigned to you. If you select the last request with the category **NONE** that doesn't exist in the XPath conditions, the receiver not determined path should be carried out.
 
-Skip this option if you have used the Bruno API client to test the integration scenario.
+<br>![](/exercises/ex2/images/11_Test_Bruno_01.png)
 
-1. Open your own API client and create a new **POST** request.
+8. Navigate back to the message monitor and **refresh**. To filter on the last message exchange, click on the **Correlation ID** link. In case of **NONE**, the message will be ignored, i.e., it will be discarded without triggering an error. In this case, you should only see three logs.
 
-2. Paste the copied end point from the clipboard into the URL field.
-
-3. Define the payload of type XML as follows.
-
-  ```xml
-<pi:MT_SalesOrder_0001 xmlns:pi="http://pi-elevation.bootcamp.com">
-    <salesOrder>
-        <orderNumber>00005</orderNumber>
-        <orderDate>10/01/2023</orderDate>
-        <customer>
-            <firstName>Amruta</firstName>
-            <lastName>Kamble</lastName>
-            <street>Hauptstrasse</street>
-            <number>89</number>
-            <country>US</country>
-        </customer>
-        <items>
-            <itemNumber>Test</itemNumber>
-            <material>Test_material</material>
-            <quantity>5</quantity>
-            <price>550</price>
-        </items>
-    </salesOrder>
-</pi:MT_SalesOrder_0001>
-```
-
-4. To authenticate to the Cloud Integration runtime, select **Basic Authentication** and maintain the credentials as follows.
-
-<br>User name =
-```yaml
-sb-3009327f-3dc1-4e3e-9853-5bd7c23e221d!b44358|it-rt-cpisuite-europe-03!b18631
-```
-<br>Password = 
-```yaml 
-e507568e-892c-443f-a6ba-4d53f76fecac$wS5Kq2nV25PlNT-U8bh8Yd-HGoBZpO-XW7Za9X3URE0=
-```
-
-5.	Trigger a message. Upon success, you will receive **200 OK** status as a response.
-6.	Change the country code to **DE** and resend.
-7.	For monitoring the message in the message monitor of SAP Integration Suite, see from step 3 on in [option 1](#option-1-using-bruno-api-client).
+<br>![](/exercises/ex2/images/12_Monitoring_03.png)
 
 ## Summary
 
-Congratulations. You have successfully migrated and tested your Content-Based-Router scenario.
-
-
-
-
-
-# Exercise 2 - Exercise 2 Description
-
-In this exercise, we will create...
-
-## Exercise 2.1 Sub Exercise 1 Description
-
-After completing these steps you will have created...
-
-1. Click here.
-<br>![](/exercises/ex2/images/02_01_0010.png)
-
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
-
-
-
-## Exercise 2.2 Sub Exercise 2 Description
-
-After completing these steps you will have...
-
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
-
-```
-
-2.	Click here.
-<br>![](/exercises/ex2/images/02_02_0010.png)
-
-## Summary
-
-You've now ...
+You've now successfully migrated your Content-Based-Router scenario and run via the pipeline for Cloud Integration.
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
