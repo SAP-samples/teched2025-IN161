@@ -1,37 +1,46 @@
-# Session ID - Session Title
+# IN161 - Modernize and transform your integration to the cloud
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called Session ID - Session Title.  
+This repository contains the material for the SAP TechEd 2025 session called IN161 - Modernize and transform your integration to the cloud.
 
 ## Overview
 
-This session introduces attendees to...
+This session introduces attendees to the migration assessment and migration tool supporting you in the transformation from SAP Process Orchestration to SAP Integration Suite.
+
+The [Migration Assessment](https://help.sap.com/docs/integration-suite/sap-integration-suite/migration-assessment) capability of SAP Integration Suite lets you evaluate how various integration scenarios might be migrated and allows you to estimate the technical efforts involved in the migration process.
+
+After having finished the assessment of the current SAP Process Orchestration landscape, the next step is the actual migration. The goal of the [Migration Tooling](https://help.sap.com/docs/integration-suite/sap-integration-suite/migration-tooling) is to provide a semi-automated migration where interfaces in the Cloud Integration capability of SAP Integration Suite will be automatically created based on SAP Process Orchestration information, so that ideally 60-70% of technical migration efforts are automated. The migration of scenarios is based on a pattern approach, which means that integration flow templates following a specific pattern are used as skeleton to migrate the content and create the final integration flows.
+
+In this exercise, we will leverage the so called [Pipeline](https://help.sap.com/docs/migration-guide-po/migration-guide-for-sap-process-orchestration/pipeline-concept) for Cloud Integration which is supported within the migration tooling. The Pipeline for Cloud Integration allows you to set up your integration scenarios in Cloud Integration similarly to how messages are processed in SAP Process Orchestration, in pipelines. As such, it helps you accelerating the transition to the cloud. It can be seen as framework which allows you to handle asynchronous messages in a common way with out-of-the-box support for exactly once delivery, error handling and sophisticated restart capabilities. For an introduction to the Pipeline for Cloud Integration, check out this [blog post](https://community.sap.com/t5/technology-blog-posts-by-sap/introducing-the-new-pipeline-concept-in-cloud-integration/ba-p/13639651).
 
 ## Requirements
 
 The requirements to follow the exercises in this repository are...
 
+
+## Access to SAP Integration Suite tenant
+
+For running through the exercises, we provide the following SAP Integration Suite tenants. The instructors will let you know which of the tenants are actually used for the exercises.
+
+- Option 1: [**Workshop tenant eu-02a**](https://workshop-eu-02a.integrationsuite-cpi033.cfapps.eu10-005.hana.ondemand.com/shell/home).
+- Option 2: [**Workshop tenant eu-02b**](https://workshop-eu-02b.integrationsuite-cpi035.cfapps.eu20-001.hana.ondemand.com/shell/home).
+- Use the user **userXX** with **XX** your ID and password provided by the instructors.
+
 ## Exercises
 
-Provide the exercise content here directly in README.md using [markdown](https://guides.github.com/features/mastering-markdown/) and linking to the specific exercise pages, below is an example.
+In the following, the complete list of exercise steps are listed. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-- [Getting Started](exercises/ex0/)
-- [Exercise 1 - First Exercise Description](exercises/ex1/)
-    - [Exercise 1.1 - Exercise 1 Sub Exercise 1 Description](exercises/ex1#exercise-11-sub-exercise-1-description)
-    - [Exercise 1.2 - Exercise 1 Sub Exercise 2 Description](exercises/ex1#exercise-12-sub-exercise-2-description)
-- [Exercise 2 - Second Exercise Description](exercises/ex2/)
-    - [Exercise 2.1 - Exercise 2 Sub Exercise 1 Description](exercises/ex2#exercise-21-sub-exercise-1-description)
-    - [Exercise 2.2 - Exercise 2 Sub Exercise 2 Description](exercises/ex2#exercise-22-sub-exercise-2-description)
+If you are interested in how the **Migration Assessment** works, start with the first exercise.
+- [Exercise 1 - Migration Assessment](exercises/ex1/)
 
-  
-**OR** Link to the Tutorial Navigator for example...
+For running through the **Migration Tooling**, continue with the second exercise.
+- [Exercise 2 - Migrate a Content-Based-Routing scenario](exercises/ex2/)
 
-Start the exercises [here](https://developers.sap.com/tutorials/abap-environment-trial-onboarding.html).
+To extend the generated integration flows, run through the following exercises.
+- [Exercise 3 - Migrate a Content-Based-Routing scenario](exercises/ex3/)
+- [Exercise 4 - Migrate a Content-Based-Routing scenario](exercises/ex4/)
 
-**IMPORTANT**
-
-Your repo must contain the .reuse and LICENSES folder and the License section below. DO NOT REMOVE the section or folders/files. Also, remove all unused template assets(images, folders, etc) from the exercises folder. 
 
 ## Contributing
 Please read the [CONTRIBUTING.md](./CONTRIBUTING.md) to understand the contribution guidelines.
