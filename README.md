@@ -38,8 +38,8 @@ For running through the **Migration Tooling**, continue with the second exercise
 - [Exercise 2 - Migrate a Content-Based-Routing scenario](exercises/ex2/)
 
 To extend the generated integration flows, run through the following exercises.
-- [Exercise 3 - Migrate a Content-Based-Routing scenario](exercises/ex3/)
-- [Exercise 4 - Migrate a Content-Based-Routing scenario](exercises/ex4/)
+- [Exercise 3 - Configure custom header properties](exercises/ex3/)
+- [Exercise 4 - Set up custom receiver determination](exercises/ex4/)
 
 
 ## Contributing
