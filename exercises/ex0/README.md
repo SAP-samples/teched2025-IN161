@@ -14,7 +14,7 @@ As a prerequisite, you first need to create an integration package where the aut
 
 <br>![](/exercises/ex0/images/00_01_Package_01.png)
    
-3. Fill in the <b>Name</b> of the integration package, e.g. **User XX** where <b>XX</b> is the user number assigned to you ranging from 00 to 99, and a short <b>Description</b>. The technical name is automatically set. Then click <b>Save</b>.
+2. Fill in the <b>Name</b> of the integration package, e.g. **User XX** where <b>XX</b> is the user number assigned to you ranging from 00 to 99, and a short <b>Description</b>. The technical name is automatically set. Then click <b>Save</b>.
 
 <br>![](/exercises/ex0/images/00_01_Package_02.png)
 
