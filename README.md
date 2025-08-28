@@ -36,8 +36,8 @@ As a prerequisite for the migration tooling exercises, you first need to run thr
 
 In the following, the complete list of exercise steps are listed. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
 
-If you are interested in how the **Migration Assessment** works, start with the first exercise.
-- [Exercise 1 - Migration Assessment](exercises/ex1/)
+If you are interested in how the **Migration Assessment** works, start with the first exercise. Note, this exercise is optional. You can run through the migration tooling exercises independent of the migration assessment exercise.
+- [Optional Exercise 1 - Migration Assessment](exercises/ex1/)
 
 For running through the **Migration Tooling**, continue with the second exercise.
 - [Exercise 2 - Migrate a Content-Based-Routing scenario](exercises/ex2/)
