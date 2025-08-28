@@ -160,6 +160,6 @@ To test your configuration scenario, we use the Bruno API client application for
 
 ## Summary
 
-You've now successfully migrated your Content-Based-Router scenario and run via the pipeline for Cloud Integration.
+You've now successfully migrated your Content-Based-Router scenario and have run the scenario via the pipeline for Cloud Integration.
 
 Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
