@@ -40,11 +40,11 @@ If you are interested in how the **Migration Assessment** works, start with the 
 - [Optional Exercise 1 - Migration Assessment](exercises/ex1/)
 
 For running through the **Migration Tooling**, continue with the second exercise.
-- [Exercise 2 - Migrate a Content-Based-Routing scenario](exercises/ex2/)
+- [Exercise 2 - Migrate a Content-Based-Routing Scenario](exercises/ex2/)
 
-To extend the generated integration flows, run through the following exercises.
-- [Exercise 3 - Configure custom header properties](exercises/ex3/)
-- [Exercise 4 - Set up custom receiver determination](exercises/ex4/)
+To extend the generated integration flows using the **Pipeline's extention points**, run through the following exercises.
+- [Exercise 3 - Configure Custom Header Properties](exercises/ex3/)
+- [Exercise 4 - Set up Custom Receiver Determination](exercises/ex4/)
 
 
 ## Contributing
