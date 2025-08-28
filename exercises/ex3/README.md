@@ -1,8 +1,8 @@
-# Exercise 3 - Exercise 3 Description
+# Exercise 3 - Extending the Pipeline: Setup Custom Header Properties
 
 In this exercise, we will create...
 
-## Exercise 3.1 Sub Exercise 1 Description
+## Exercise 3.1 - Add Custom Header Properties
 
 After completing these steps you will have created...
 
@@ -16,7 +16,7 @@ response->set_text( |Hello ABAP World! | ).
 
 
 
-## Exercise 3.2 Sub Exercise 2 Description
+## Exercise 3.2 - Test and Monitor
 
 After completing these steps you will have...
 
@@ -39,4 +39,4 @@ READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
 
 You've now ...
 
-Continue to - [Exercise 4 - Excercise 4 ](../ex4/README.md)
+Continue to - [Exercise 4 - Setup Custom Receiver Determination](../ex4/README.md)
