@@ -27,6 +27,11 @@ For running through the exercises, we provide the following SAP Integration Suit
 - Option 2: [**Workshop tenant eu-02b**](https://workshop-eu-02b.integrationsuite-cpi035.cfapps.eu20-001.hana.ondemand.com/shell/home).
 - Use the user **userXX** with **XX** your ID and password provided by the instructors.
 
+## Prerequisites
+
+As a prerequisite for the migration tooling exercises, you first need to run through the following preparation steps.
+- [Exercise 0 - Prepare the Migration Exercises](exercises/ex0/)
+
 ## Exercises
 
 In the following, the complete list of exercise steps are listed. You can use this section as an index or table of contents. Use the breadcrumb navigation on top of the pages to go back to the Table of Contents.
