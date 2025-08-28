@@ -10,11 +10,7 @@ Before running through the migration tool exercises, you first need to run troug
 
 As a prerequisite, you first need to create an integration package where the automatically generated integration flows are created. If you have already run through other exercises before, you may have already created an own package. In this case, you can simply reuse the other package and skip the steps below.
 
-1. If you are not already in the SAP Integration Suite landing page, switch back to the landing page by clicking on the SAP sign.
-
-<br>![](/exercises/ex0/images/Navigate_Back.png)
-
-2. Navigate to <b>Design > Integrations and APIs</b>, and select  <b>Create</b>.
+1. If you are not already in the SAP Integration Suite landing page, switch back to the landing page by clicking on the SAP sign. Then, navigate to <b>Design > Integrations and APIs</b>, and select  <b>Create</b>.
 
 <br>![](/exercises/ex0/images/00_01_Package_01.png)
    
