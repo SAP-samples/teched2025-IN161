@@ -1,6 +1,6 @@
-# Prerequisites for the Migration Exercises
+# Prepare the Migration Exercises
 
-After having finished the assessment of the current SAP Process Orchestration landscape and having estimated the effort needed to migrate with the Migration Assessment capability, the next step is the actual migration.
+After having finished the assessment of the current SAP Process Orchestration landscape, the next step is the actual migration.
 
 Before running through the migration tool exercises, you first need to run trough the following preparation steps:
 - [Create an integration package](#create-an-integration-package)
