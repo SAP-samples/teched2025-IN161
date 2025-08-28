@@ -10,7 +10,7 @@ Before running through the migration tool exercises, you first need to run troug
 
 As a prerequisite, you first need to create an integration package where the automatically generated integration flows are created. If you have already run through other exercises before, you may have already created an own package. In this case, you can simply reuse the other package and skip the steps below.
 
-1. If you are not already in the SAP Integration Suite landing page, switch back to the landing page by clicking on the SAP sign. Then, navigate to <b>Design > Integrations and APIs</b>, and select  <b>Create</b>.
+1. Open the SAP Integration Suite landing page, and navigate to <b>Design > Integrations and APIs</b>, and select  <b>Create</b>.
 
 <br>![](/exercises/ex0/images/00_01_Package_01.png)
    
@@ -26,7 +26,7 @@ To run the integration scenarios, we use the open source API client Bruno for wh
 
 Import the provided collection if not already done.
 
-1. Open the SAP Integration Suite landing page, and navigate to **Design > Integrations and APIs**. Select the integration package **Migration Hands-on Workshop - Solution** and switch to tab **Documents**. From there you can download the Bruno collection **Migration Hands-on Workshop**. The downloaded file is zipped, so you first need to unzip the file in your download folder before proceeding.
+1. In the SAP Integration Suite landing page, navigate to **Design > Integrations and APIs**. Select the integration package **Migration Hands-on Workshop - Solution** and switch to tab **Documents**. From there you can download the Bruno collection **Migration Hands-on Workshop**. The downloaded file is zipped, so you first need to unzip the file in your download folder before proceeding.
 
 <br>![](/exercises/ex0/images/00_02_Bruno_00.png)
 
