@@ -30,7 +30,7 @@ In this exercise, you will assess your integration scenarios using the informati
 
 <br>![](/exercises/ex1/images/01_02_Assessment_01.png)
    
-2. Select the <b>Open Dashboard</b> icon.
+2. We have already run an integration scenario extraction and an evaluation of the connected SAP Process Orchestration system. Select the <b>Open Dashboard</b> icon to access the results of the evaluation.
 
 <br>![](/exercises/ex1/images/01_02_Assessment_02.png)
    
