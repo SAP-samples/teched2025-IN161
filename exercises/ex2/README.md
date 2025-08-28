@@ -8,113 +8,117 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 1. Open your previously created package, and switch to the <b>Artifacts</b> tab, then switch to <b>Edit</b> Mode. If you haven't created an own integration package yet, navigate to [Create an Integration package](/exercises/ex0/#create-an-integration-package), create a new package and then return. Otherwise, proceed with the next steps. Click on <b>Migrate</b> to start the migration wizard.
 
-<br>![](/exercises/ex2/images/02_Migrate_01.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_01.png)
 
 2.	In the migration wizard, select the SAP Process Orchestration system **POP** from the drop down menu, then click <b>Next Step</b>.
 
-<br>![](/exercises/ex2/images/02_Migrate_03.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_02.png)
 
 3. In SAP Process Orchestration, only Integrated Configuration Objects (ICO) are supported. So keep the Object Type as **Integrated Configuration**. You can use the filter to filter out the list of ICOs and choose the appropriate scenario. Click on the <b>Selection</b> icon. 
 
-<br>![](/exercises/ex2/images/02_Migrate_04.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_03.png)
 
 4. In the filter of the upcoming dialog, fill in **CBR2XX** for the **Sender Communication Component**, then select button **Go** to restrict the list of Items. Choose the interface **si_tem_async_ob** with sender **CBR2XX** from the Items list.
 
-<br>![](/exercises/ex2/images/02_Migrate_06.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_04.png)
 
 5. Once you have selected the scenario, click <b>Next Step</b>.
 
-<br>![](/exercises/ex2/images/02_Migrate_07.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_05.png)
 
 6.	The best fit pattern is identified. Whether your ICO is of pattern Content Based Routing or Recipient List depends on the xpath conditions to determine the receivers. If the xpaths conditions are exclusive, i.e., only one condition applies and as such the message is sent to only one receiver, then the ICO is of pattern Content Based Routing. Otherwise, if many conditions may apply for a message, and hence the message may be sent to multiple receivers, then the ICO is of pattern Recipient List. Select the pattern **Content-Based Routing** from the drop-down.
 
-<br>![](/exercises/ex2/images/02_Migrate_08.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_06.png)
 
 7.	Once the pattern has been selected, we need to select the migration approach. We like to use the Pipeline for Cloud Integration. So, select the **Pipeline** radio button. Click <b>Next Step</b>.
 
-<br>![](/exercises/ex2/images/02_Migrate_10.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_07.png)
 
 8. In the next step, you can choose whether you like to work with reusable message mapping artifacts or not. In this exercise, we like to reuse artifacts which have been already uploaded to Cloud Integration. So, keep the **Enable Reusable Artifacts** flag selected. As you can see, you have the option to select the integration package where the reusable artifact should be uploaded to. By default, the integration package is preset from where you started the migration wizard. Let's change the default setting. Click **Select** next to the artifact package.
 
-<br>![](/exercises/ex2/images/02_Migrate_11.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_08.png)
 
 9. In the upcoming dialog, select the integration package **Migration Hands-on Workshop - Solution**. That's where we have uploaded the mapping to.
 
-<br>![](/exercises/ex2/images/02_Migrate_12.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_09.png)
 
 10. The wizard detects that the message mapping with name **mm_item_to_item** has been already uploaded from the ESR of SAP Process Orchestration, so the Import Method is set to **Reuse**. If not, change to **Reuse** and select the reusable message mapping **mm_item_to_item_sol** from the drop down menu.
 
-<br>![](/exercises/ex2/images/02_Migrate_13.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_10.png)
 
 11. Click **Next Step**.
 
-<br>![](/exercises/ex2/images/02_Migrate_14.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_11.png)
 
 12. In the next step, you can see the message mapping resources. No new message is created, the existing one is used. Click **Next Step**.
 
-<br>![](/exercises/ex2/images/02_Migrate_15.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_12.png)
 
 13.	On the next screen, you need to configure your scenario which impacts the generated integration artifacts. Here you have the option to define a scenario name, change the proposed sender component and sender interface names, set the inbound queue of the pipeline, change the proposed end point of the scenario-specific inbound conversion flow, check and eventually adapt the XPath conditions, and finally change the proposed end points of the scenario-specific outbound processing flows. Maintain a **Name** for your scenario following the pattern **CS_CBR2XX** where <b>XX</b> is your user number from 01 to 99. Furthermore, change the **Sender Component** name **CBR2XX** replacing <b>XX</b> with the user number assigned to you. The rest can be kept as is. Then, click on <b>Review</b>.
 
-<br>![](/exercises/ex2/images/02_Migrate_17.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_13.png)
 
 14.	Verify the information and click on <b>Migrate</b>.
 
-<br>![](/exercises/ex2/images/02_Migrate_20.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_14.png)
 
 15.	Upon successful migration, you can gather the information of all generated artifacts, i.e., the scenario-specific integration flows as well as the Partner Directory entry. From here, you can also download a report. You can click through the different tabs. On the first tab, **Artifact Details**, you see the list of generated scenario-specific integration flows. There should be in total five: the scenario-specific inbound processing flow which defines the sender adapter, the scenario-specific inbound conversion flow which converts the incoming JSON message into an XML message, and for each receiver a scenario-specific outbound processing flow containing the message mappings as well as the receiver adapters. From here, you can open any integration flow by clicking on **View Artifact**.
 
-<br>![](/exercises/ex2/images/03_Success_01.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_15.png)
 
 16.	If you switch to the **Channels and Resources** tab, you can see the source adapters on SAP Process Orchestration beeing mapped to the corresponding adapter on Cloud Integration.
 
-<br>![](/exercises/ex2/images/03_Success_02.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_16.png)
 
 17. Switch to tab **Partner Directory**. Here, you can see the partner ID **CS_CBR2XX** where <b>XX</b> is your user number generated which defines your configuration scenario. Furthermore, the generated string parameters, binary parameters and alternative partners are listed. From here you can navigate to the Partner Directory by clicking on the partner ID link.
 
-<br>![](/exercises/ex2/images/03_Success_03.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_17.png)
 
 18. The navigation is not context sensitive, so in the Partner Directory you need to filter for your user number <b>XX</b>. As you can see, a string parameter **InboundConversionEndpoint** has been created with the end point as specified in the migration tooling.
 
-<br>![](/exercises/ex2/images/04_Partner_Directory_01.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_18.png)
 
 19. Switch to the **Alternative Partners** tab. This maps the sender component and sender interface to the partner ID, i.e., the configuration scenario.
 
-<br>![](/exercises/ex2/images/04_Partner_Directory_02.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_19.png)
 
-20. Switch to the **Binary Parameters** tab. Here, a binary with ID **receiverDetermination** is listed. The binary entry is actually a generated XSLT mapping which carries out the XPath conditions to determine the receivers and receiver interfaces. From here, you can download and open the XSLT to check if the XPath conditions have been properly migrated.
+20. Switch to the **Binary Parameters** tab. Here, a binary with ID **receiverDetermination** is listed. The binary entry is actually a generated XSLT mapping which carries out the XPath conditions to determine the receivers and receiver interfaces. From here, you can download the XSLT.
 
-<br>![](/exercises/ex2/images/04_Partner_Directory_03.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_20.png)
 
-21. Navigate back to the **Success** screen of the migration tooling, and click on **OK** to close the migration wizard.
+21. If you open the XSLT, you can check if the XPath conditions have been properly migrated.
 
-<br>![](/exercises/ex2/images/05_Integration_Flows_01.png)
+<br>![](/exercises/ex2/images/02_01_Migrate_21.png)
+
+22. Navigate back to the **Success** screen of the migration tooling, and click on **OK** to close the migration wizard.
+
+<br>![](/exercises/ex2/images/02_01_Migrate_22.png)
 
 ## Exercise 2.2 - Configure and Deploy
 
 1.	You should now see the list of integration flows created in your integration package. Select all, and select entry **Configure** from the **Actions** menu.
 
-<br>![](/exercises/ex2/images/06_Deploy_02.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_01.png)
 
 2. On the **Configure Selected Artifacts** dialog, you usually need to configure your integration flows. In our case, the tenants have been prepared in such a way that all settings can be kept as migrated from the ICO. So, you can click on ***Deploy All** to trigger the deployment.
 
-<br>![](/exercises/ex2/images/06_Deploy_03.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_02.png)
 
 3. Confirm the upcoming dialog.
 
-<br>![](/exercises/ex2/images/06_Deploy_04.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_03.png)
 
 3. Once you have confirmed the upcoming dialog, you should see a toast message on the bottom that all artifacts are triggered for deployment. Let's navigate to the monitoring to check the deployment status. Navigate to **Monitor > Integrations and APIs** from the left navigation pane.
 
-<br>![](/exercises/ex2/images/06_Deploy_05.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_04.png)
 
 4. Let's navigate to the monitoring page to check the deployment status. Navigate to **Monitor > Integrations and APIs** from the left navigation pane. From here, select the **Manage Integration Content** tile.
 
-<br>![](/exercises/ex2/images/06_Deploy_07.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_05.png)
 
 5. In the **Manage Integration Content** page, filter for your user number <b>XX</b>. Confirm that all integration flows are in status **Started**.
 
-<br>![](/exercises/ex2/images/06_Deploy_08.png)
+<br>![](/exercises/ex2/images/02_02_Deploy_06.png)
 
 ## Exercise 2.3 - Test and Monitor
 
@@ -122,35 +126,35 @@ To test your configuration scenario, we use the Bruno API client application for
 
 1. Open the Bruno application on your laptop, expand the **Migration Hands-on Workshop** collection and select any of the first three POST requests. Ensure that the right environment is selected which defines the host name of the tenant, the client id and the secret. Depending on which tenant you use in the exercises, select either **eu-02a** or **eu-02b**. In the provided URL, change <b>XX</b> with the user number assigned to you. Save, then trigger a message by selecting the **Send Request** button on the upper right.
 
-<br>![](/exercises/ex2/images/07_Test_Bruno_11.png)
+<br>![](/exercises/ex2/images/02_03_Test_01.png)
 
 2. Upon success, you will receive **200 OK** status.
 
-<br>![](/exercises/ex2/images/07_Test_Bruno_12.png)
+<br>![](/exercises/ex2/images/02_03_Test_02.png)
 
 3. Navigate back to the monitoring page, and click the **Overview** link.
 
-<br>![](/exercises/ex2/images/08_Monitoring_01.png)
+<br>![](/exercises/ex2/images/02_03_Test_03.png)
 
 4. In the **Integrations and APIs** monitoring page, click the **Message Status Overview** tile.
 
-<br>![](/exercises/ex2/images/08_Monitoring_02.png)
+<br>![](/exercises/ex2/images/02_03_Test_04.png)
 
 5. In the **Message Status Overview**, change the **Overview By** to **Senders**. This provides you an overview of all processed messages grouped by the sender system. Click the **Completed** or **Total** number link that corresponds to the sender **CBR2XX** with the user number <b>XX</b> assigned to you.
 
-<br>![](/exercises/ex2/images/08_Monitoring_04.png)
+<br>![](/exercises/ex2/images/02_03_Test_05.png)
 
 6. In the upcoming message monitor, you should see five new logs in status **Completed**: one for the scenario-specific inbound processing, one for the scenario-specific inbound conversion, one for the generic integrated messaging pipeline, one for the generic outbound processing, and finally one for the scenario-specific outbound processing. Depending on the request that you have sent, you should see the corresponding receiver in the log properties: for the category **Software**, the message should be sent to receiver **XYZ200**, for the category **Keyboards**, the receiver should be **XYZ201**, and for the category **Notebooks**, the receiver should be **XYZ202**.
 
-<br>![](/exercises/ex2/images/08_Monitoring_05.png)
+<br>![](/exercises/ex2/images/02_03_Test_06.png)
 
 7. In the Bruno test client, you may resend different requests and check the monitoring. Note, do not forget to change the URL of the other requests replacing <b>XX</b> with the number assigned to you. If you select the last request with the category **NONE** that doesn't exist in the XPath conditions, the receiver not determined path should be carried out.
 
-<br>![](/exercises/ex2/images/11_Test_Bruno_01.png)
+<br>![](/exercises/ex2/images/02_03_Test_07.png)
 
 8. Navigate back to the message monitor and **refresh**. To filter on the last message exchange, click on the **Correlation ID** link. In case of **NONE**, the message will be ignored, i.e., it will be discarded without triggering an error. In this case, you should only see three logs.
 
-<br>![](/exercises/ex2/images/12_Monitoring_03.png)
+<br>![](/exercises/ex2/images/02_03_Test_08.png)
 
 ## Summary
 
