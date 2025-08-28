@@ -66,4 +66,4 @@ As part of the collection, variables and environment parameters have been mainta
 
 Now that you have run through the preparation steps, you can start with the actual migration exercise.
 
-Continue to - [Exercise 2 - Migrate and Test a Content-Based-Router Scenario](../ex2/README.md)
+Go back to - [Main page](../../README.md)
