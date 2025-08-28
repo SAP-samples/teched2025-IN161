@@ -54,7 +54,7 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_12.png)
 
-13.	On the next screen, you need to configure your scenario which impacts the generated integration artifacts. Here you have the option to define a scenario name, change the proposed sender component and sender interface names, set the inbound queue of the pipeline, change the proposed end point of the scenario-specific inbound conversion flow, check and eventually adapt the XPath conditions, and finally change the proposed end points of the scenario-specific outbound processing flows. Maintain a **Name** for your scenario following the pattern **CS_CBR2XX** where <b>XX</b> is your user number from 01 to 99. Furthermore, change the **Sender Component** name **CBR2XX** replacing <b>XX</b> with the user number assigned to you. The rest can be kept as is. Then, click on <b>Review</b>.
+13.	On the next screen, you need to configure your scenario which impacts the generated integration artifacts. Here you have the option to define a scenario name, change the proposed sender component and sender interface names, set the inbound queue of the pipeline, change the proposed end point of the scenario-specific inbound conversion flow, check and eventually adapt the XPath conditions, and finally change the proposed end points of the scenario-specific outbound processing flows. Maintain a **Name** for your scenario following the pattern **CS_CBR2XX** (CS stands for Configuration Scenario) where <b>XX</b> is the user number ranging from 01 to 99 assigned to you. Furthermore, change the **Sender Component** name **CBR2XX** replacing <b>XX</b> with the user number assigned to you. The rest can be kept as is. Then, click on <b>Review</b>.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_13.png)
 
@@ -70,11 +70,11 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_16.png)
 
-17. Switch to tab **Partner Directory**. Here, you can see the partner ID **CS_CBR2XX** where <b>XX</b> is your user number generated which defines your configuration scenario. Furthermore, the generated string parameters, binary parameters and alternative partners are listed. From here you can navigate to the Partner Directory by clicking on the partner ID link.
+17. Switch to tab **Partner Directory**. Here, you can see the generated partner ID **CS_CBR2XX** which defines your configuration scenario where <b>XX</b> is your user number. Furthermore, the generated string parameters, binary parameters and alternative partners are listed. From here you can navigate to the Partner Directory by clicking on the partner ID link.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_17.png)
 
-18. The navigation is not context sensitive, so in the Partner Directory you need to filter for your user number <b>XX</b>. As you can see, a string parameter **InboundConversionEndpoint** has been created with the end point as specified in the migration tooling.
+18. The navigation is not context sensitive, so in the Partner Directory you need to filter for your user number <b>XX</b>. As you can see, a string parameter **InboundConversionEndpoint** has been created with the end point of the scenario-specific inbound conversion flow as specified in the migration tooling.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_18.png)
 
@@ -86,7 +86,7 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_20.png)
 
-21. If you open the XSLT, you can check if the XPath conditions have been properly migrated.
+21. If you open the XSLT, you can check if the XPath conditions have been properly migrated. As you can see from the generated XSLT, messages with category **Software** are sent to receiver **XYZ200**, messages with category **Keyboards** are sent to **XYZ201**, and messages with category **Notebooks** go to **XYZ202**. If no receiver could be determined, so for any other category, the messages are ignored, i.e., discarded.
 
 <br>![](/exercises/ex2/images/02_01_Migrate_21.png)
 
@@ -100,7 +100,7 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_01.png)
 
-2. On the **Configure Selected Artifacts** dialog, you usually need to configure your integration flows. In our case, the tenants have been prepared in such a way that all settings can be kept as migrated from the ICO. So, you can click on ***Deploy All** to trigger the deployment.
+2. On the **Configure Selected Artifacts** dialog, you need to configure your integration flows. In our case, the tenants have been prepared in such a way that most settings can be kept as migrated from the ICO. You only need to change the end point of your scenario-specific inbound processing flow because this needs to be unambiguous within the tenant. Select the **CS_CBR2XX_PIP01_InboundProcessing** flow, and change the **Address** of the sender http adapter which has been automatically preset based on the source sender REST adapter settings on SAP Process Orchestration. Here, replace the **XX** in the **Address** with the number assigned to you. Then, click on **Save All** and finally click on ***Deploy All** to trigger the deployment.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_02.png)
 
@@ -108,15 +108,15 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_03.png)
 
-3. Once you have confirmed the upcoming dialog, you should see a toast message on the bottom that all artifacts are triggered for deployment. Let's navigate to the monitoring to check the deployment status. Navigate to **Monitor > Integrations and APIs** from the left navigation pane.
+4. Once you have confirmed the upcoming dialog, you should see a toast message on the bottom that all artifacts are triggered for deployment.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_04.png)
 
-4. Let's navigate to the monitoring page to check the deployment status. Navigate to **Monitor > Integrations and APIs** from the left navigation pane. From here, select the **Manage Integration Content** tile.
+5. Let's navigate to the monitoring page to check the deployment status. Navigate to **Monitor > Integrations and APIs** from the left navigation pane. From here, select the **Manage Integration Content** tile.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_05.png)
 
-5. In the **Manage Integration Content** page, filter for your user number <b>XX</b>. Confirm that all integration flows are in status **Started**.
+6. In the **Manage Integration Content** page, filter for your user number <b>XX</b>. Confirm that all integration flows are in status **Started**.
 
 <br>![](/exercises/ex2/images/02_02_Deploy_06.png)
 
@@ -132,7 +132,7 @@ To test your configuration scenario, we use the Bruno API client application for
 
 <br>![](/exercises/ex2/images/02_03_Test_02.png)
 
-3. Navigate back to the monitoring page, and click the **Overview** link.
+3. Navigate back to the monitoring page, and click the **Overview** link on the very top.
 
 <br>![](/exercises/ex2/images/02_03_Test_03.png)
 
@@ -148,11 +148,11 @@ To test your configuration scenario, we use the Bruno API client application for
 
 <br>![](/exercises/ex2/images/02_03_Test_06.png)
 
-7. In the Bruno test client, you may resend different requests and check the monitoring. Note, do not forget to change the URL of the other requests replacing <b>XX</b> with the number assigned to you. If you select the last request with the category **NONE** that doesn't exist in the XPath conditions, the receiver not determined path should be carried out.
+7. In the Bruno test client, you may resend different requests and check the monitoring. If you select the last request with the category **NONE** that doesn't exist in the XPath conditions, the receiver not determined path should be carried out.
 
 <br>![](/exercises/ex2/images/02_03_Test_07.png)
 
-8. Navigate back to the message monitor and **refresh**. To filter on the last message exchange, click on the **Correlation ID** link. In case of **NONE**, the message will be ignored, i.e., it will be discarded without triggering an error. In this case, you should only see three logs.
+8. Navigate back to the message monitor and **refresh**. To filter on the last message exchange, click on the **Correlation ID** link. In case of **NONE**, the message will be ignored, i.e., it will be discarded without triggering an error. In this case, you should only see three logs. Furthermore, the log of the integrated messaging pipleline should show the **Custom Status** equals **ReceiverNotFoundIgnored**.
 
 <br>![](/exercises/ex2/images/02_03_Test_08.png)
 
