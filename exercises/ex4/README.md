@@ -2,41 +2,159 @@
 
 In this exercise, we will create...
 
-## Exercise 3.1 - Create Custom Integration Flow
+## Exercise 4.1 - Create Custom Integration Flow
 
 After completing these steps you will have created...
 
-1. Click here.
-<br>![](/exercises/ex3/images/02_01_0010.png)
+1. xxx
 
-2.	Insert this line of code.
-```abap
-response->set_text( |Hello ABAP World! | ). 
-```
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_01.png)
 
-## Exercise 3.2 - Configure the Partner Directory
+2. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_02.png)
+
+3. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_03.png)
+
+4. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_04.png)
+
+5. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_05.png)
+
+6. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_06.png)
+
+7. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_07.png)
+
+8. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_08.png)
+
+9. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_09.png)
+
+10. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_10.png)
+
+11. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_11.png)
+
+12. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_12.png)
+
+13. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_13.png)
+
+14. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_14.png)
+
+15. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_15.png)
+
+16. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_16.png)
+
+17. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_17.png)
+
+18. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_18.png)
+
+19. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_19.png)
+
+20. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_20.png)
+
+21. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_21.png)
+
+22. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_22.png)
+
+23. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_23.png)
+
+24. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_24.png)
+
+25. xxx
+
+<br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_25.png)
+
+
+## Exercise 4.2 - Configure the Partner Directory
 
 After completing these steps you will have...
 
+1. xxx
 
-## Exercise 3.3 - Test and Monitor
+<br>![](/exercises/ex4/images/04_02_PartnerDirectory_01.png)
+
+2. xxx
+
+<br>![](/exercises/ex4/images/04_02_PartnerDirectory_02.png)
+
+3. xxx
+
+<br>![](/exercises/ex4/images/04_02_PartnerDirectory_03.png)
+
+4. xxx
+
+<br>![](/exercises/ex4/images/04_02_PartnerDirectory_04.png)
+
+## Exercise 4.3 - Test and Monitor
 
 After completing these steps you will have...
 
-1.	Enter this code.
-```abap
-DATA(lt_params) = request->get_form_fields(  ).
-READ TABLE lt_params REFERENCE INTO DATA(lr_params) WITH KEY name = 'cmd'.
-  IF sy-subrc = 0.
-    response->set_status( i_code = 200
-                     i_reason = 'Everything is fine').
-    RETURN.
-  ENDIF.
+1. xxx
 
-```
+<br>![](/exercises/ex4/images/04_03_Test_01.png)
 
-2.	Click here.
-<br>![](/exercises/ex3/images/02_02_0010.png)
+2. xxx
+
+<br>![](/exercises/ex4/images/04_03_Test_02.png)
+
+3. xxx
+
+<br>![](/exercises/ex4/images/04_03_Test_03.png)
+
+4. xxx
+
+<br>![](/exercises/ex4/images/04_03_Test_04.png)
+
+5. xxx
+
+<br>![](/exercises/ex4/images/04_03_Test_05.png)
+
+6. xxx
+
+<br>![](/exercises/ex4/images/04_03_Test_06.png)
+
 
 ## Summary
 
