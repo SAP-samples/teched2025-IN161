@@ -126,7 +126,7 @@ When we run through the migration tooling, we select the Pipeline apporach, i.e.
 
 To test your configuration scenario, we use the Bruno API client application for which we have provided a collection with pre-configured sample requests. As a prerequisite to test your integration scenario using the Bruno API client, you should have gone through [Setup Bruno API client](../ex0#setup-bruno-api-client/). If not, do the setup, then come back and proceed with the steps below.
 
-1. Open the Bruno application on your laptop, expand the **Migration Hands-on Workshop** collection and select any of the first three POST requests. Ensure that the right environment is selected which defines the host name of the tenant, the client id and the secret. Depending on which tenant you use in the exercises, select either **eu-02a** or **eu-02b**. In the provided URL, change <b>XX</b> with the user number assigned to you. Save, then trigger a message by selecting the **Send Request** button on the upper right.
+1. Open the Bruno application on your laptop, expand the **Migration Hands-on Workshop** collection and select any of the first three POST requests. Ensure that the right environment is selected which defines the host name of the tenant, the client id and the secret. Depending on which tenant you use in the exercises, select either **eu-02a** or **eu-02b**. In the provided URL, the **participant** variable should hold your user number <b>XX</b> assigned to you assuming that you have properly configured the parameter in the Bruno API client setup. Trigger a message by selecting the **Send Request** button on the upper right.
 
 <br>![](/exercises/ex2/images/02_03_Test_01.png)
 
