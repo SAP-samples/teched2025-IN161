@@ -1,18 +1,18 @@
 # Exercise 3 - Extending the Pipeline: Setup Custom Header Properties
 
-In this exercise, we will extend the integration flows we generated previously using the Pipeline's extention points and set up customer header properties that will allow us to search logs based on payload data.
+In this exercise, we will extend the integration flow we generated previously using the Pipeline's extention points, and set up customer header properties that will allow us to search logs based on payload data.
 
 ## Exercise 3.1 - Add Custom Header Properties
 
-1. To add customer header properties, start by navigating to **Integrations and APIs** and select the integration flow.
+1. To add customer header properties, start by navigating to **Integrations and APIs** and select the integration flow **CS_CBR2XX_PIP01_InboundProcessing** flow in the **Artifacts** tab.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_01.png)
 
-2. xxx
+2. Click **Edit**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_02.png)
 
-3. xxx
+3. Navigate to the **References** tab, click **Add** and select **Script** from the drop-down-menu.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_03.png)
 
