@@ -12,11 +12,14 @@ In this exercise, we will extend the integration flow we generated previously us
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_02.png)
 
+
 3. Navigate to the **References** tab, click **Add** and select **Script** from the drop-down-menu.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_03.png)
 
+
 4. In the pop-up, select the options as follows:
+
 | Source  | Integration Flow  |
 | Package | Migration Hands-on Workshop - Solution  |
 | Integration Flow | CS_CBR2SOL_PIP01_InboundProcessing |
