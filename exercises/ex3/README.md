@@ -16,11 +16,16 @@ In this exercise, we will extend the integration flow we generated previously us
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_03.png)
 
-4. xxx
+4. In the pop-up, select the options as follows:
+| Source  | Integration Flow  |
+| Package | Migration Hands-on Workshop - Solution  |
+| Integration Flow | CS_CBR2SOL_PIP01_InboundProcessing |
+
+And for the resources, select the scripts: **addCustomHeaderProperties** and **partseJSON**. Then click **Add**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_04.png)
 
-5. xxx
+5. Now you can see both Groovy Scripts available in the **References** tab.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_05.png)
 
