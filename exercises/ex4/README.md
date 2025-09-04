@@ -6,7 +6,7 @@ In this exercise, we will create...
 
 After completing these steps you will have created...
 
-1. xxx
+1. Choose
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_01.png)
 
