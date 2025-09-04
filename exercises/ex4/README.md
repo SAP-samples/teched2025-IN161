@@ -6,15 +6,15 @@ In this exercise, we will create...
 
 After completing these steps you will have created...
 
-1. Choose
+1. Choose **Cloud Integration Pipeline - Templates**
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_01.png)
 
-2. xxx
+2. Click the **Artifacts** tab. Choose **Pipeline v2 Template Step04 - Custom Receiver Determination**. Click on the dots and choose **copy**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_02.png)
 
-3. xxx
+3. Click **Select**
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_03.png)
 
