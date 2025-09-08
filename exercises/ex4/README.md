@@ -86,23 +86,23 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_20.png)
 
-21. xxx
+21. Click **Save**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_21.png)
 
-22. xxx
+22. Click **Cancel**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_22.png)
 
-23. xxx
+23. Click **Configure**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_23.png)
 
-24. xxx
+24. Enter Address **ICS_CBR2XX/pip04/CustomReceiverDetermination**, then click **Save**, and **Deploy**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_24.png)
 
-25. xxx
+25. Check Deployment Status and Runtime Status: Started. Confirm your flow is successfully deployed. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_25.png)
 
