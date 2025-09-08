@@ -46,23 +46,23 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_10.png)
 
-11. xxx
+11. Choose **mm_item_to_receivers_sol**.Click **OK**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_11.png)
 
-12. xxx
+12. Choose **mm_item_to_receivers_sol**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_12.png)
 
-13. xxx
+13. Click the + button.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_13.png)
 
-14. xxx
+14. Search for **Mapping** under All Steps. Choose **Message Mapping**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_14.png)
 
-15. xxx
+15. Click on ✓ 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_15.png)
 
