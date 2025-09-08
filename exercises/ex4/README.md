@@ -14,35 +14,35 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_02.png)
 
-3. Click **Select**
+3. Click **Select**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_03.png)
 
-4. Choose **User XX**
+4. Choose **User XX**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_04.png)
 
-5. xxx
+5. Edit the template name and package by entering your user ID number, then click **Copy**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_05.png)
 
-6. xxx
+6. Click **Navigate**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_06.png)
 
-7. xxx
+7. In **User XX**, choose **Pipeline v2 Template Step04 - Customer Receiver Determication XX**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_07.png)
 
-8. xxx
+8. Click **Edit**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_08.png)
 
-9. xxx
+9. Under Intergration Flow, click **References** tab, and click **Global (0)** tab. Choose **Message Mapping** under the drop-down bar of **Add References**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_09.png)
 
-10. xxx
+10. Choose **Migration Hands-on Workshop - Solution**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_10.png)
 
