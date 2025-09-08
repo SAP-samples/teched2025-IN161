@@ -24,11 +24,11 @@ In this exercise, we will extend the integration flow we generated previously us
 - Package: Migration Hands-on Workshop - Solution
 - Integration Flow: CS_CBR2SOL_PIP01_InboundProcessing
 
-And for the resources, select the scripts: **addCustomHeaderProperties** and **partseJSON**. Then click **Add**.
+And for the resources, select the scripts: **addCustomHeaderProperties** and **parseJSON**. Then click **Add**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_04.png)
 
-5. Now we can see **addCustomHeaderProperties** and **partseJSON** available in the **References** tab.
+5. Now we can see **addCustomHeaderProperties** and **parseJSON** available in the **References** tab.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_05.png)
 
@@ -37,7 +37,7 @@ And for the resources, select the scripts: **addCustomHeaderProperties** and **p
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_06.png)
 
-7. In the **Local Resources** tab, choose the **partseJSON** script. Then click **OK**.
+7. In the **Local Resources** tab, choose the **parseJSON** script. Then click **OK**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_07.png)
 
