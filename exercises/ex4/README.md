@@ -111,19 +111,19 @@ After completing these steps you will have created...
 
 After completing these steps you will have...
 
-1. xxx
+1. Choose **Integrations and APIs** under Monitor. Click **Partner Directory**. 
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_01.png)
 
-2. xxx
+2. In Partners, search for your number, and choose **CS_CBR2XX**. Click **Create**.
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_02.png)
 
-3. xxx
+3. Create String Parameter with ID: **CustomXRDEndpoint** and Value:**ICS_CBR2XX/pip04/CustomReceiverDetermination**.
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_03.png)
 
-4. xxx
+4. Confirm String Parameter with ID: **CustomXRDEndpoint** and Value:**ICS_CBR2XX/pip04/CustomReceiverDetermination**.
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_04.png)
 
