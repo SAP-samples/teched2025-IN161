@@ -18,7 +18,7 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_03.png)
 
-4. xxx
+4. Choose **User XX**
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_04.png)
 
