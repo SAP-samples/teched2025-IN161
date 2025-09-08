@@ -83,15 +83,15 @@ And for the resources, select the scripts: **addCustomHeaderProperties** and **p
 
 After completing these steps you will have...
 
-1. xxx
+1. Open the Bruno application on your laptop, expand the Migration Exercises collection and select the POST request **Post Item - Notebooks**. Ensure that the **eu-02a** environment has been selected in the upper right-corner. Then trigger a message by selecting the **Send Request** button right below the environment detail.
 
 <br>![](/exercises/ex3/images/03_02_Test_01.png)
 
-2. xxx
+2. The **200 OK** status indicates success!
 
 <br>![](/exercises/ex3/images/03_02_Test_02.png)
 
-3. xxx
+3. Navigate back to the monitoring page, and click the **Monitor Message Processing** link below the Artifact Details of your deployed integration flow. In the message monitor, you should see one new log in status **Completed** and the new **Custom Headers**.
 
 <br>![](/exercises/ex3/images/03_02_Test_03.png)
 
