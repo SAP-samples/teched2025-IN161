@@ -20,59 +20,61 @@ In this exercise, we will extend the integration flow we generated previously us
 
 4. In the pop-up, select the options as follows:
 
-| Source  | Integration Flow  |
-| Package | Migration Hands-on Workshop - Solution  |
-| Integration Flow | CS_CBR2SOL_PIP01_InboundProcessing |
+- Source: Integration Flow
+- Package: Migration Hands-on Workshop - Solution
+- Integration Flow: CS_CBR2SOL_PIP01_InboundProcessing
 
 And for the resources, select the scripts: **addCustomHeaderProperties** and **partseJSON**. Then click **Add**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_04.png)
 
-5. Now you can see both Groovy Scripts available in the **References** tab.
+5. Now we can see **addCustomHeaderProperties** and **partseJSON** available in the **References** tab.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_05.png)
 
-6. xxx
+6. To add a Script step to the integration flow, click the **Add Flow Step** (plus icon) and then choose **Script>Groovy Script** and place the Script in the integration process.
+   To upload the correct script, double-click the script step to launch the properties sheet. And in the **Processing** tab click the **Select** button.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_06.png)
 
-7. xxx
+7. In the **Local Resources** tab, choose the **partseJSON** script. Then click **OK**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_07.png)
 
-8. xxx
+8. Back in the **Processing** tab, click the scriipt file we just added to lunch the editor.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_08.png)
 
-9. xxx
+9. In the script editor, we can edit the script according to the requirements of the scenario. In the **Problems** tab, we can check for any incompatibilities and recommendations.
+    The details of the Script look good, click **Close** to go back to the Integration Flow.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_09.png)
 
-10. xxx
+10. Now, we're repeating the same steps for **addCustomHeaderProperties**: Click **Add Flow Step** (plus icon)...
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_10.png)
 
-11. xxx
+11. ... and then choose **Script>Groovy Script** and place the Script in the integration process, next to the first Script.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_11.png)
 
-12. xxx
+12. Double-click the script step, click **Select** in the **Processing** tab.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_12.png)
 
-13. xxx
+13. Now choose the **addCustomHeaderProperties** script and click **OK**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_13.png)
 
-14. xxx
+14. Click **Save** in the upper corner. And then click **Deploy**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_14.png)
 
-15. xxx
+15. For the Deployment, make sure the correct Runtime Profile is selected, Cloud Integration, and then click **Yes**.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_15.png)
 
-16. xxx
+16. Done!
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_16.png)
 
