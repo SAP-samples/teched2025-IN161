@@ -131,28 +131,27 @@ After completing these steps you will have...
 
 After completing these steps you will have...
 
-1. xxx
+1. Open the Bruno application on your laptop, expand the Migration Exercises collection and select the POST request **Post Item - Keyboards**. Ensure that the **eu-02a** environment has been selected in the upper right-corner. Then trigger a message by selecting the Send Request button right below the environment detail.
 
 <br>![](/exercises/ex4/images/04_03_Test_01.png)
 
-2. xxx
+2. The **200 OK** status indicates success!
 
 <br>![](/exercises/ex4/images/04_03_Test_02.png)
 
-3. xxx
+3. In the **Message Status Overview**, change the **Overview By** to **Senders**. This provides you an overview of all processed messages grouped by the sender system. Click the **Completed** or **Total** number link that corresponds to the sender **CBR2XX** with the user number **XX** assigned to you.
 
 <br>![](/exercises/ex4/images/04_03_Test_03.png)
 
-4. xxx
+4. In the upcoming message monitor, you should see five new logs in status Completed. For **Pipeline v2 Generic Step02 - Integrated Messaging Runtime Asyncthe** message should be sent to receiver **XYZ201**, **XYZ202**, **XYZ200**. 
 
 <br>![](/exercises/ex4/images/04_03_Test_04.png)
 
-5. xxx
+5. In the Bruno test client, you may resend different requests and check the monitoring. If you select the last request with the category **NONE** that doesn't exist in the XPath conditions, the receiver not determined path should be carried out.
 
 <br>![](/exercises/ex4/images/04_03_Test_05.png)
 
-6. xxx
-
+6. Navigate back to the message monitor. In the message monitor, you should see receiver is **XYZ200**, Customer Status: **ReceiverNotFoundDefault**, and the category value: **NONE**.
 <br>![](/exercises/ex4/images/04_03_Test_06.png)
 
 
