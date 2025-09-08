@@ -18,7 +18,7 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_03.png)
 
-4. Choose **User XX**.
+4. Choose **User XX**, with the user number XX assigned to you.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_04.png)
 
@@ -46,7 +46,7 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_10.png)
 
-11. Choose **mm_item_to_receivers_sol**.Click **OK**.
+11. Choose **mm_item_to_receivers_sol**. Click **OK**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_11.png)
 
@@ -74,7 +74,7 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_17.png)
 
-18. Click Categotry > Receiver. 
+18. Click **Categotry** > **Receiver**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_18.png)
 
@@ -102,7 +102,7 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_24.png)
 
-25. Check Deployment Status and Runtime Status: Started. Confirm your flow is successfully deployed. 
+25. Check Deployment Status and Runtime Status: **Started**. Confirm your flow is successfully deployed. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_25.png)
 
@@ -119,11 +119,11 @@ After completing these steps you will have...
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_02.png)
 
-3. Create String Parameter with ID: **CustomXRDEndpoint** and Value:**ICS_CBR2XX/pip04/CustomReceiverDetermination**.
+3. Create String Parameter with ID: **CustomXRDEndpoint** and Value: **ICS_CBR2XX/pip04/CustomReceiverDetermination**.
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_03.png)
 
-4. Confirm String Parameter with ID: **CustomXRDEndpoint** and Value:**ICS_CBR2XX/pip04/CustomReceiverDetermination**.
+4. Confirm String Parameter with ID: **CustomXRDEndpoint** and Value: **ICS_CBR2XX/pip04/CustomReceiverDetermination**.
 
 <br>![](/exercises/ex4/images/04_02_PartnerDirectory_04.png)
 
