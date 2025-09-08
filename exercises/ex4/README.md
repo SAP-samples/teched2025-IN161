@@ -62,27 +62,27 @@ After completing these steps you will have created...
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_14.png)
 
-15. Click on ✓ 
+15. Click on ✓ to select message resource.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_15.png)
 
-16. xxx
+16. Click **Global Resources**, and choose **mm_item_to_receivers_sol**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_16.png)
 
-17. xxx
+17. Under Message Mapping, click **Processing**, and click **/mm_item_to_receivers_sol**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_17.png)
 
-18. xxx
+18. Click Categotry > Receiver. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_18.png)
 
-19. xxx
+19. Click **Close**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_19.png)
 
-20. xxx
+20. Under Mapping Expression, choose **XYZ200**. 
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_20.png)
 
