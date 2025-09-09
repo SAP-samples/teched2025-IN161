@@ -44,7 +44,7 @@ First of all, you need to create a custom integration flow which at the end runs
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_09.png)
 
-10. In the upcoming dialog, choose **Migration Hands-on Workshop - Solution**.
+10. In the upcoming dialog, choose the package **Migration Hands-on Workshop - Solution**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_10.png)
 
