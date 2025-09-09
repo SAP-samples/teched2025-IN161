@@ -32,7 +32,7 @@ First of all, you need to create a custom integration flow which at the end runs
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_06.png)
 
-7. In your package **User XX**, choose the beforehand copied integration flow **Pipeline v2 Template Step04 - Customer Receiver Determication XX**.
+7. In your package **User XX**, choose the beforehand copied integration flow **Pipeline v2 Template Step04 - Customer Receiver Determination XX**.
 
 <br>![](/exercises/ex4/images/04_01_CreateIntegrationFlow_07.png)
 
