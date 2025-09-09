@@ -90,7 +90,7 @@ Let's run the integration scenario again, this time with configured custom heade
 
 <br>![](/exercises/ex3/images/03_02_Test_02.png)
 
-3. Navigate back to the monitoring page, and click the **Monitor Message Processing** link below the Artifact Details of your deployed integration flow. In the message monitor, you should see one new log in status **Completed** and the new **Custom Headers**.
+3. Navigate back to the monitoring page, and click the **Monitor Message Processing** link below the Artifact Details of your deployed integration flow. In the message monitor, you should see new logs in status **Completed** and the new **Custom Headers**.
 
 <br>![](/exercises/ex3/images/03_02_Test_03.png)
 
