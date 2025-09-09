@@ -145,7 +145,7 @@ Let's run the integration scenario again, this time with the custom receiver det
 
 <br>![](/exercises/ex4/images/04_03_Test_03.png)
 
-4. In the upcoming message monitor, you should see couple of new logs in status Completed. The log of the integration flow **Pipeline v2 Generic Step02 - Integrated Messaging Runtime Asyncthe** indicates that message were sent to receivers **XYZ201**, **XYZ202**, and **XYZ200**. 
+4. In the upcoming message monitor, you should see a couple of new logs in status Completed. The log of the integration flow **Pipeline v2 Generic Step02 - Integrated Messaging Runtime Async** indicates that message were sent to receivers **XYZ201**, **XYZ202**, and **XYZ200**. You should also see a log for the custom integration flow **Pipeline v2 Template Step04 - Customer Receiver Determination XX**.
 
 <br>![](/exercises/ex4/images/04_03_Test_04.png)
 
@@ -153,7 +153,7 @@ Let's run the integration scenario again, this time with the custom receiver det
 
 <br>![](/exercises/ex4/images/04_03_Test_05.png)
 
-6. Navigate back to the message monitor. In the message monitor, you should see that the receiver is **XYZ200**, Customer Status: **ReceiverNotFoundDefault**, and the category value: **NONE**.
+6. Navigate back to the message monitor. In the message monitor, you should see that the message was sent to the default receiver **XYZ200**, Customer Status equals **ReceiverNotFoundDefault**, and the category value equals **NONE**.
 
 <br>![](/exercises/ex4/images/04_03_Test_06.png)
 
