@@ -162,4 +162,4 @@ To test your configuration scenario, we use the Bruno API client application for
 
 You've now successfully migrated your Content-Based-Router scenario and have run the scenario via the pipeline for Cloud Integration.
 
-Continue to - [Exercise 3 - Excercise 3 ](../ex3/README.md)
+Continue to - [Exercise 3 - Setup Custom Header Properties](../ex3/README.md)
