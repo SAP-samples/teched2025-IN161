@@ -2,7 +2,7 @@
 
 ## Description
 
-This repository contains the material for the SAP TechEd 2025 session called IN161 - Modernize and transform your integration to the cloud.
+This repository contains the material for the SAP TechEd 2025/ASUG TechConnect 2025 session called IN161 - Modernize and transform your integration to the cloud.
 
 ## Overview
 
