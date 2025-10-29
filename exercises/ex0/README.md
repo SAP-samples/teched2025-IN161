@@ -22,6 +22,8 @@ As a prerequisite, you first need to create an integration package where the aut
 
 To run the integration scenarios, we use the open source API client Bruno for which we have prepared a collection. The collection contains sample requests and environment parameters to authenticate at the provided tenant.
 
+If you run the exercises on the laptops provided by us, the Bruno client has been already installed. Otherwise, if you run the exercises on your own laptop, you can download and install the Bruno API client from [here](https://docs.usebruno.com/get-started/bruno-basics/download).
+
 ### Import collection
 
 Import the provided collection if not already done.
