@@ -28,8 +28,8 @@ Tenants in EU:
 - Option 2: [**Workshop tenant eu-02b**](https://workshop-eu-02b.integrationsuite-cpi035.cfapps.eu20-001.hana.ondemand.com/shell/home).
 
 Tenants in US:
-- Option 3: [**Workshop tenant us-01b**](https://workshop-us-01b.integrationsuite.cfapps.us20.hana.ondemand.com/shell/home).
-- Option 4: [**Workshop tenant us-01c**](https://workshop-us-01c.integrationsuite.cfapps.us30.hana.ondemand.com/shell/home).
+- Option 3: **User00-User30**: [**Workshop tenant us-01b**](https://workshop-us-01b.integrationsuite.cfapps.us20.hana.ondemand.com/shell/home).
+- Option 4: **User31-User60**: [**Workshop tenant us-01c**](https://workshop-us-01c.integrationsuite.cfapps.us30.hana.ondemand.com/shell/home).
 
 Access:
 - Use the user **userXX** with **XX** your ID and password provided by the instructors.
