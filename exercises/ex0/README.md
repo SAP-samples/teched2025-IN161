@@ -61,6 +61,7 @@ As part of the collection, variables and environment parameters have been mainta
 <br>![](/exercises/ex0/images/00_02_Bruno_06.png)
 
 3. If you expand the **Migration Hands-on Workshop** collection, you should see four requests. In order to be able to select an environment, you need to select any request. As you can see, the variables are used to define the URL and the authentication. Select either the environment **eu-02a** or **eu-02b** depending on the tenant used in the exercises. The instructors will let you know which environment is used.
+**NOTE**: For US, please use environment you have logged into viz., **us-01b** or **us-01c**.
 
 <br>![](/exercises/ex0/images/00_02_Bruno_07.png)
 
