@@ -1,6 +1,6 @@
 # Exercise 3 - Extending the Pipeline: Setup Custom Header Properties
 
-In this exercise, we will extend the integration flow we generated previously using the Pipeline's extention points, and set up customer header properties that will allow us to search logs based on payload data.
+In this exercise, we will extend the integration flow we generated previously using the Pipeline's extention points, and set up custom header properties that will allow us to search logs based on payload data.
 
 ## Exercise 3.1 - Add Custom Header Properties
 
