@@ -32,7 +32,13 @@ Tenants in US:
 - Option 4: [**Workshop tenant us-01c**](https://workshop-us-01c.integrationsuite.cfapps.us30.hana.ondemand.com/shell/home).
 
 Access:
-- Use the user **userXX** with **XX** your ID and password provided by the instructors.
+- Use the user **userXX** with **XX** from 01 to 45.
+
+**Note**: You can copy and paste the user name from below. Please replace **XX** with the ID assigned to you. The ID and the password will be provided by the instructors during the session.
+
+```yaml
+userXX
+```
 
 ## Prerequisites
 
