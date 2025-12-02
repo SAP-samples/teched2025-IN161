@@ -23,13 +23,14 @@ The requirements to follow the exercises in this repository are...
 
 For running through the exercises, we provide the following SAP Integration Suite tenants. The instructors will let you know which of the tenants are actually used for the exercises.
 
+<!--
 Tenant used at SAP TechEd Bangalore:
 - [**Workshop tenant eu-02a**](https://workshop-eu-02a.integrationsuite-cpi033.cfapps.eu10-005.hana.ondemand.com/shell/home).
 
 Fallback:
 - [**Workshop tenant us-01b**](https://workshop-us-01b.integrationsuite.cfapps.us20.hana.ondemand.com/shell/home).
+-->
 
-<!--
 Tenants in EU:
 - Option 1: [**Workshop tenant eu-02a**](https://workshop-eu-02a.integrationsuite-cpi033.cfapps.eu10-005.hana.ondemand.com/shell/home).
 - Option 2: [**Workshop tenant eu-02b**](https://workshop-eu-02b.integrationsuite-cpi035.cfapps.eu20-001.hana.ondemand.com/shell/home).
@@ -37,7 +38,7 @@ Tenants in EU:
 Tenants in US:
 - Option 3: [**Workshop tenant us-01b**](https://workshop-us-01b.integrationsuite.cfapps.us20.hana.ondemand.com/shell/home).
 - Option 4: [**Workshop tenant us-01c**](https://workshop-us-01c.integrationsuite.cfapps.us30.hana.ondemand.com/shell/home).
--->
+
 
 Access:
 - Use the user **userXX** with **XX** from 01 to 45.
