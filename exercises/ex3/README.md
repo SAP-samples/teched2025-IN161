@@ -13,7 +13,7 @@ In this exercise, we will extend the integration flow we generated previously us
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_02.png)
 
 
-3. We like to reuse scripts to parse the incoming JSON message and to add the parsed values to the custom header properties. So, let's first import the scripts to the references of your integration flow. Navigate to the **References** tab, click **Add** and select **Script** from the drop-down-menu.
+3. We like to reuse scripts to parse the incoming JSON message and to add the parsed values to the custom header properties. So, let's first import the scripts to the references of your integration flow. Navigate to the **References** tab, click **Add** and select **Script 1.x** from the drop-down-menu.
 
 <br>![](/exercises/ex3/images/03_01_AddCustomHeaderProps_03.png)
 
