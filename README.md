@@ -1,4 +1,5 @@
 # IN161 - Modernize and transform your integration to the cloud
+[![REUSE status](https://api.reuse.software/badge/github.com/SAP-samples/teched2025-IN161)](https://api.reuse.software/info/github.com/SAP-samples/teched2025-IN161)
 
 ## Description
 
